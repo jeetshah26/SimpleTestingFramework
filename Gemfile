@@ -1,6 +1,6 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-  gem 'cucumber',   '3.1.0'
-  gem 'rspec',      '3.7.0'
-  gem 'watir',      '6.10.3'
-  gem 'json',       '2.1.0'
+  gem 'cucumber',   '5'
+  gem 'rspec',      '3.9'
+  gem 'watir',      '6.17'
+  gem 'json',       '2.3'

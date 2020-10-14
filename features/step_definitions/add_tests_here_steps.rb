@@ -8,7 +8,7 @@ Then(/^I can see the google search bar$/) do
 end
 
 And(/^I can search for term "([^"]*)"$/) do |search_term|
-  @browser.text_field(id: 'lst-ib').send_keys search_term,:enter
+  @browser.text_field(name: 'q').send_keys search_term,:enter
 
 end
 
