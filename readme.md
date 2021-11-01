@@ -16,7 +16,7 @@
     rvm install 2.5.1
 ###### If you have trouble with brew and openssl, you may have to force a new install
     brew install openssl --force
-###### if this balks, you may need to correct permissions in /usr/local
+###### if this fails or has error, you may need to correct permissions in /usr/local
     On macOS Sierra (10.12) or earlier
         sudo chown -R $USER:admin /usr/local
     On macOS High Sierra (10.13)
